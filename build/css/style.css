@@ -81,6 +81,7 @@ body {
   line-height: 26px;
   background: #0E0E0E;
   color: #fff;
+  overflow-x: hidden;
 }
 
 body.locked {
