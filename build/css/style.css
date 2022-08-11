@@ -88,6 +88,10 @@ body.locked {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
