@@ -20,6 +20,22 @@ function accordion() {
 accordion()
 
 
+// Navbar scroll
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "12px 0px";
+        document.getElementById("logo").style.fontSize = "25px";
+        document.getElementById("head-btn").style.padding = "10px 21px 11px";
+    } else {
+        document.getElementById("navbar").style.padding = "26px 0px";
+        document.getElementById("logo").style.fontSize = "35px";
+        document.getElementById("head-btn").style.padding = "12px 21px 13px";
+    }
+}
+
 // SCROLLREVEAL
 
 ScrollReveal({
